@@ -1,0 +1,795 @@
+body{
+    background-color: #161616;
+    color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* nav section starts here */
+
+nav{font-size: 19px;   
+
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.nav-link:focus{
+    color: #F8DA64;
+    
+}
+.navbar-expand-md {
+    padding: 50px 121px;
+}
+
+#collapsibleNavbar{
+    justify-content:space-around;
+    margin-left: 71px;
+}
+
+
+.intro1{
+    margin-top: 50px;
+}
+div.intro1 p.matter{
+background-color: white;
+max-width:42%;
+color: #161616;
+padding: 11px !important;
+font-size: 21px;
+}
+div.intro1 h2.matter{
+    font-size: 65px;
+    font-weight: 450;
+
+}
+div a.explore
+    {
+        background-color: #F8DA64;
+        color: #161616;
+        padding: 16px 27px;
+        text-transform: uppercase;
+        /* margin-top: 500px !important; */
+    }
+
+.intro div.explore-more{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #624BFF;
+    /* padding: 50; */
+    padding: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.nav-section{
+    border: 1.5px solid #fff;
+    border-top: none;
+    border-radius: 0 0 45px 45px;
+}
+
+/* nav section ends here */
+
+/* popular courses section starts here  */
+
+.img-con{
+    width:250px;
+}
+
+.img-con img{
+    width:120px;
+}
+.popular-courses{
+    margin-top: 200px;
+}
+
+div.courses-section{
+    text-align: center;
+    margin-top: 10px;
+}
+.course-cards{
+    margin-top:50px;
+}
+div.courses-section a{
+    padding:5px 20px;
+    margin: 0px 15px;
+    border:1px solid #C4C4C4;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #818c96;
+}
+
+.desktop-hide{
+    display:none;
+}
+.card{
+    background-color: #161616;
+}
+
+.card-body{
+    background-color: #212121;
+    padding-right: 0px;
+    border-radius: 0px 0px 12px 12px ;
+    
+}
+.card-body p{
+ color:rgb(207, 202, 202);
+ font-weight:1;
+ font-size: 16px;
+ padding: 25px 0px;
+ max-height:240;
+
+}
+.card-body a{
+    background-color: #212121;
+    border-color:#F8DA64;
+    color: #F8DA64;
+    position: relative;
+    right:0px;
+   
+   }
+
+.card-body a:hover{
+    background-color:#F8DA64;
+    color: black;
+    border-color: #F8DA64;
+}
+
+
+div.card div.d-flex{
+    position: absolute;
+    top:160px;
+    left:12%
+}
+
+
+/* why-us section */
+
+section.why-us p.matter{
+text-align: center;
+padding:0px 370px;
+color:#8b8d8f;
+}
+.why-us-containers .row .card .card-body{
+    margin:10px;
+    border-radius: 10px;
+}
+.why-us-containers .row .card .card-body img{
+   padding-top: 15px;
+}
+.why-us-containers .row .card .card-body p{
+    padding-top: 30px;
+    text-align: center; 
+    font-size: 18px;
+ }
+
+
+ /* why we stand out section starts here */
+
+
+.why-us{
+    margin-top: 100px;
+}
+.best-learning{
+    background-color: #212121;
+    margin:75px 25px;
+    padding: 100px 0px 75px;
+ }
+
+ .best-learning .why-we-line{
+    background-color: #F8DA64;
+    width: 40px;
+    height: 2px;
+    margin-top: 11px;
+    text-align: center;
+    margin-left:43%;
+
+ }
+.best-inner-container  {
+ background-color: #212121;
+}
+.best-inner-container .card-body{
+    margin:1px;
+    border-style: ridge;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.best-inner-container .card-body h5{
+    font-size: 17px;
+    padding-top: 20px;
+    font-weight: 1px;
+}
+.best-inner-container .card-body p{
+    font-size: 17px;
+    padding-right:10px;
+    font-weight: lighter;
+   
+}
+
+/* training section starts here */
+
+.training .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.training-inner p.training{
+    padding: 5px 15px;
+    color:#0b7077;
+    background-color: #D4E1FF;
+    width:85px;
+    border-radius: 8px;
+}
+
+div.training-inner{
+    padding-bottom: 50px;
+}
+
+
+/* about-us section starts here */
+
+.span-line{
+    margin-top: 11px;
+}
+
+.crafting-careers div.container.col-md-7 div.d-flex p{
+    margin-left:20px;
+}
+
+section.about-us{
+    background-color:#212121;
+}
+
+.crafting-careers{
+    padding:80px 90px;
+}
+
+div.container.col-md-7{
+    /* margin-left: 10px; */
+    padding: 0px 90px;
+    /* color:#adb2b; */
+}
+
+div.container.col-md-7 p{
+    color:#adb2b7;
+}
+
+div.container-fluid .row .img1{
+    width:450px;
+}
+div.container-fluid .row .img2{
+ width:350px;
+ margin:0px 100px
+}
+div.container-fluid .row .img3{
+    width:350px;
+    /* margin:0px 100px */
+   }
+
+.span-line{
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px;
+
+}
+
+.about-us-inner-container .row-inner span{
+color:#F8DA64;
+}
+
+.about-us-inner-container{
+    padding-bottom: 70px;
+}
+.about-us-inner-container p{
+    color:#adb2b7;
+}
+
+.row .row-inner h2{
+ font-size: 40px;
+}
+
+.row .row-inner span.plus{
+   position: absolute;
+}
+
+.row .row-inner span.eight{
+color:white;}
+
+
+
+/* testimoni */
+
+.inner-content .row .col-md-4{
+    background:linear-gradient(143deg, rgba(32, 32, 32, 1) 45%, rgb(49 40 108) 100%);
+    border: 1px solid white;
+    border-radius: 10px;
+
+} 
+span.line {
+    width: 50px;
+    height: 2px;
+    background: #F8DA64;
+    display: inline-block;
+}
+    /* offer section starts here */
+
+.offer{
+    background-color: #624BFF;
+    background-image: url(https://hashinclude.info/time-bg.50c998895fad7be4.svg);
+    background-position: 126px 127px;
+    margin:150px;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.conatiner.col-7{
+    padding: 40px 100px;
+}
+.conatiner.col-7 button{
+    margin-top: 30px;
+    border-color: white;
+    background-color: white;
+    color: #161616;
+}
+.conatiner.col-md-5{
+    padding-top: 100px;
+}
+
+.conatiner.col-md-5 > p{
+    font-size: 30px;
+}
+
+.time.col-4 h2{
+ font-size: 100px;
+ text-align: center;
+}
+.time.col-4 p{
+    font-size: 23px;
+    text-align: center;
+   }
+
+   .btn .bg-white:hover{
+    background-color: #624BFF;
+    color: white;
+   }
+
+footer {
+    background-image: url("https://hashinclude.info/footer-bg.cc00989cacc2122a.svg");
+    background-size: cover;
+    /* width:1500px; */
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    /* margin:0px 0px */
+}
+
+footer a{
+    color: #0b7077;
+    text-decoration: none;
+}
+
+
+/* @media only screen (max-width:1200px) {
+
+    .col-md-6 {
+        flex: 0 0 auto; 
+        width: 85%;
+    }
+
+    div.intro1 p.matter {
+        background-color: white;
+        max-width: 52%;
+        color: #161616;
+        padding: 11px !important;
+        font-size: 20px;
+    }
+    div.intro1 h2.matter {
+        font-size: 53px;
+        font-weight: 450;
+    }
+    .intro div.explore-more {
+    padding: 20px;}
+
+    .img-con img{
+        width: 24mm;
+    }
+    div.card div.d-flex {
+        position: absolute;
+        top: 103px;
+        left: 12%;
+    }   
+} */
+
+@media (min-width: 1200px)  {
+
+    body{    overflow-x: hidden;
+    }
+    
+    .intro div.explore-more {
+
+        padding: 19px;
+
+    }
+    div.card div.d-flex {
+        position: absolute;
+        top: 148px;
+        left: 7%;
+    }
+} 
+
+@media (max-width: 1199px)  {
+
+    body{    overflow-x: hidden;
+    }
+
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 1170px;
+    }
+
+    
+    div.intro1 p.matter {
+        background-color: white;
+        max-width: 64%;
+        color: #161616;
+        padding: 11px !important;
+        font-size: 21px;
+    }
+    div.intro1 h2.matter {
+        font-size: 55px;
+        font-weight: 450;
+    }
+    .explore-button.mt-4 {
+        margin-bottom: 30px;
+    } 
+    .explore-more img{
+            margin-right: 1px;
+    }
+    .course-cards div.card div.d-flex {
+        position: absolute;
+        top: 151px;
+        left: 14%;
+        max-width:200;
+    }
+
+    .crafting-careers .col-md-5 img {
+       width:350px;
+    }
+    .training .container.col-4 img{
+         width:420px;
+         padding-left: 40px;
+    }
+    div.card div.d-flex {
+        position: absolute;
+        top: 122px;
+        left: 7%;
+    }
+    
+    .pt-3 {
+        padding-top: 0.25rem !important;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0.25rem;
+    }
+    section.why-us p.matter {
+        padding: 0px 247px; 
+    }
+    .time.col-4 h2 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .inner-points .inner img{
+        width:22px;
+    }
+    .points{
+        margin-bottom: 10;
+    }
+
+}  
+
+
+
+@media (max-width:991px)  {
+
+    body{    overflow-x: hidden;
+    }
+
+    .navbar-expand-md {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 948px;
+    }
+    
+    div.intro1 p.matter {
+        max-width: 49%;
+        padding: 11px;
+        font-size: 20px;
+    }
+    div.intro1 h2.matter {
+        font-size: 46px;
+     }
+
+    div a.explore {
+        padding: 12px 20px;
+        text-transform: uppercase;
+
+    }
+    .intro div.explore-more {
+
+        padding: 25px;
+
+    }
+    div.card div.d-flex {
+        position: absolute;
+        top: 108px;
+        left: 9%;
+        padding: 2px;
+    }
+
+}  
+
+@media (max-width:767px)  {
+
+    body{ overflow-x: hidden;
+    }
+    .training .row {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 700;
+    }
+
+    .navbar-expand-md {
+        padding: 33px 59px 0px;
+    }
+
+    .popular-courses {
+        margin-top: 143px;
+    }   
+    .desktop-hide button {
+    
+        margin-left: 41%;
+    }
+
+    .crafting-careers .col-md-5 img {
+        width: 352px;
+        margin-left: 27%;
+    }
+
+    .intro .row{
+        margin: 0px 0px 0px 33px;
+    }
+
+
+    div.intro1 p.matter {
+        max-width: 46%;
+        font-size: 16px;
+    }
+    div.intro1 h2.matter {
+        font-size: 35px;
+    }
+    div a.explore {
+        padding: 8px 11px;
+        text-transform: uppercase;
+        font-size: 12;
+    }
+    .explore-button.mt-4 {
+        margin-bottom: 25px;
+        margin-top: 0px !important;
+    }
+    
+    .img-fluid.ps-2{
+        
+            width: 140px;
+        
+    }
+    .img-fluid {
+        max-width: 94%;
+        height: auto;
+    }
+
+    .explore-more img {
+        margin-right: 1px;
+        width: 132px;
+    }
+    .intro div.explore-more {
+        padding: 15px;
+    }
+
+          .desktop-hide button{
+            cursor: pointer;
+            max-width: 178px;
+            background-color: #161616;
+            border-color: white;
+            margin-left: 36%;
+        
+        }
+        .courses-section{
+              display: none;
+        }
+
+        div.courses-section a {
+            padding: 7px 18px;
+            margin: 1px 5px;
+          
+        }
+        div.card div.d-flex {
+            position: absolute;
+            top: 120px;
+            left: 7%;
+        }
+        .card {
+            margin-bottom: 24px;
+        }
+        .course-cards{
+            margin-top:30px;
+            max-width: 656px;
+            
+        }
+    
+    .why-us {
+        margin-top: 44px;
+    }
+    section.why-us p.matter {
+        padding: 0px 102px;
+    }
+    .why-us-containers {
+        max-width: 853px;
+    }
+
+    .row .card .card-body img {
+        padding-top: 11px;
+    }
+    .row .card .card-body p {
+        padding-top: 15px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .best-learning {
+        background-color: #212121;
+        margin: 18px 25px;
+        padding: 50px 0px 45px;
+    }
+    .best-learning .why-we-line{
+        background-color: #F8DA64;
+        width: 50px;
+        height: 4px;
+        margin-top: 12px;
+        text-align: center;
+        margin-left: 36%;
+    }
+    .ps-3 {
+        padding-left: 1rem !important;
+        font-weight: lighter;
+    }
+    .pb-5 {
+        padding-bottom: 4rem !important;
+        font-size: 41px;
+    
+    }
+
+.best-inner-container{
+    background-color: #161616;
+    margin-bottom: 79px;
+}
+
+.best-inner-container .card-body{
+    margin: -25px
+}
+
+.why-us h2{
+    font-size: 42px;
+}
+
+.col-md-5 img {
+    width: 27px;
+}
+div.training-inner {
+    padding-bottom: 50px;
+    padding-top: 45px;
+    margin-left: 59px;
+}
+div.training-inner h2 {
+ font-size: 42px;
+ margin-top: 20px;
+}
+
+.inner-points{
+    
+        margin-top: 20;
+    
+}
+
+.points .pt-3.ps-3 {
+    padding-left: 1rem !important;
+    font-weight: lighter;
+    font-size: 19px;
+}
+.d-flex {
+    margin-bottom: 13px;
+}
+
+.crafting-careers {
+    padding: 28px 0px;
+}
+.crafting-careers img {
+    width: 0px;
+}
+div.container.col-md-7 {
+    /* margin-left: 10px; */
+    padding: 0px 47px;
+}
+
+.span-line {
+    background: #F8DA64;
+    width: 63px;
+    display: inline-block;
+    height: 5px;
+    margin-top: 15px;
+}
+
+
+.crafting-careers div.container.col-md-7 div.d-flex p {
+    margin-left: 20px;
+    font-size: 21px;
+}
+div.container.col-md-7 h3 {
+    font-size: 34px;
+    
+}
+div.container.col-md-7 p {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.inner-content{
+    max-width: 948px;
+        margin-left: 8%;
+    }
+    .inner-content .row .col-md-4 {
+       
+        margin-bottom: 28px;
+    }
+
+    .offer {
+        
+        margin: 72px;
+        
+    }
+    .offer .container .row .col-md-7{
+        padding: 20px;
+    }
+    .offer .container .row .col-md-7 h1 {
+        font-size: calc(2.375rem + 1.5vw);
+    }
+    
+.conatiner.col-md-5 {
+    padding-top: 31px;
+}
+.conatiner.col-md-5 > p {
+    font-size: 41px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.inner-content {
+    margin-bottom: 13px;
+    max-width: 650;
+}
+.heading-testimonal{
+    max-width: 650;
+}
+}
+
+
+
+@media (max-width:577px)  {
+
+
+}

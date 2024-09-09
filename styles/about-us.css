@@ -1,0 +1,283 @@
+body{
+    color: white;
+    background-color: #161616;
+}
+
+/* nav section starts here */
+
+.navbar-expand-md {
+    padding: 50px 121px;
+}
+.navbar{font-size: 19px;   
+
+}
+.nav-link:focus{
+    color: #F8DA64;
+    
+}
+
+#collapsibleNavbar{
+    justify-content:space-around;
+    margin-left: 71px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div a.explore
+    {
+        background-color: #F8DA64;
+        color: #161616;
+        padding: 16px 27px;
+        text-transform: uppercase;
+        /* margin-top: 500px !important; */
+    }
+
+.intro div.explore-more{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #624BFF;
+    /* padding: 50; */
+    padding: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* nav section ends here */
+
+/* about-us section starts here */
+
+.span-line{
+    margin-top: 11px;
+}
+
+.crafting-careers div.container.col-md-7 div.d-flex p{
+    margin-left:20px;
+}
+
+section.about-us{
+    background-color:#212121;
+    margin: 0px 30px;
+}
+
+.crafting-careers{
+    padding:80px 90px;
+}
+
+div.container.col-md-7{
+    /* margin-left: 10px; */
+    padding: 0px 90px;
+    /* color:#adb2b; */
+}
+
+div.container.col-md-7 p{
+    color:#adb2b7;
+}
+
+div.container-fluid .row .img1{
+    width:450px;
+}
+div.container-fluid .row .img2{
+ width:350px;
+ margin:0px 100px
+}
+div.container-fluid .row .img3{
+    width:350px;
+    /* margin:0px 100px */
+   }
+
+.span-line{
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px;
+
+}
+
+.about-us-inner-container .row-inner span{
+color:#F8DA64;
+}
+
+.about-us-inner-container{
+    padding-bottom: 70px;
+}
+.about-us-inner-container p{
+    color:#adb2b7;
+}
+
+.row .row-inner h2{
+ font-size: 40px;
+}
+
+.row .row-inner span.plus{
+    position: absolute;
+    top:605;
+}
+
+.row .row-inner span.eight{
+color:white;}
+
+
+/* about-us section starts here */
+
+
+span.Our-team-line{
+    height: 1px;
+    display: block;
+    background: #fff;
+    width: 76%;
+    margin: auto;
+    /* margin: 45px 0px; */
+}
+
+/* our-team section starts here */
+
+div.our-team-inner{
+    padding-top: 75px;
+} 
+
+div.our-team-inner img{
+ position: relative;
+ left:715px;
+ bottom: -3px;
+ padding-bottom: 30px;
+}
+
+div.our-team-inner p{
+    padding: 0px 450px;
+    color:#adb2b7;
+   }
+.justify-content-between{
+    display: flex;
+}
+
+div.container-2{
+    padding-top:70px;
+    padding-bottom:150px;
+}
+div.container-1{
+    padding-top:70px;
+}
+.team-info-block{
+    position: absolute;
+    top: 74px;
+    left: 40px;
+}
+h2.member-name{
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+p.member-designation{
+   font-size: 13px;
+   text-align: center;}
+
+
+footer {
+    background-image: url("https://hashinclude.info/footer-bg.cc00989cacc2122a.svg");
+    background-size: cover;
+    /* width:1500px; */
+    color: #0b7077;
+    padding: 7% 7% 5%;
+    /* margin:0px 0px */
+}
+footer a{
+    color: #0b7077;
+}
+@media (max-width:767px)  {
+
+    body{
+         overflow-x: hidden;
+    }
+    .navbar-expand-md {
+        padding: 54px 69px;
+    }
+    .col-sm-8 {
+        flex: 0 0 auto;
+        margin-left: 50;
+    }
+    .crafting-careers {
+        padding: 61px 0px;
+    }
+    .col-sm-8 {
+        max-width:auto !important;
+    }
+    div.container.col-md-7 {
+        /* margin-left: 10px; */
+        padding: 21px 90px;
+    }
+    .row .row-inner span.plus {
+        position: absolute;
+        top: 780px;
+    }
+    div.our-team-inner img {
+        position: relative;
+        left: 312px;
+        bottom: -3px;
+        padding-bottom: 30px;
+    }
+    div.our-team-inner p {
+        padding: 0px 20px;
+        color: white;
+        font-weight: lighter;
+    }
+    div.our-team-inner {
+        padding: 75px 0px 49px;
+    }
+    .team-img{
+        width: 225px;
+    }
+    
+    #img1{
+        width: 196px;
+    
+    }
+    h2.member-name {
+        font-size: 23px;
+        margin-bottom: 2px;
+    }
+    .team-info-block {
+        position: absolute;
+        top: 29px;
+        left: 29px;
+    }
+    .row .row-inner span.plus {
+        position: relative;
+        top: -16px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    div.our-team-inner img {
+        position: relative;
+        left: 180px;
+        bottom: -3px;
+       
+    }  
+    .justify-content-between{
+        display: block;
+    }  
+    .team-img {
+        width: 169px;
+    }
+    #img1 {
+        width: 155px;
+    }
+    h2.member-name {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .team-info-block {
+        position: absolute;
+        top: 15px;
+        left: 29px;
+    }
+    footer .container-fluid .row div{
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+
+}
